@@ -7,23 +7,16 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		
-		<!----------------SIMULATION----------------->
+		
 		
 		<script src="assets/js/simulation_basic.js"></script> 
 
-		<!----------------SIMULATION----------------->
-
-		<!----------------RSA----------------->
-		
 		<script src="assets/js/simulation_rsa.js"></script> 
 
-		<!----------------RSA----------------->
-				
-		<!----------------XOR----------------->
 		
-			<script src="assets/js/simulation_xor.js"></script> 
+		<script src="assets/js/simulation_xor.js"></script> 
 
-		<!----------------XOR----------------->
+		
 	</head>
 	<body>
 		<h1 id="tomove"></h1>
@@ -36,7 +29,7 @@
 
 	
 
-		<!-- Banner -->
+	
 			<section id="banner">
 				<div class="inner">
 					<header>
@@ -47,7 +40,7 @@
 				</div>
 			</section>
 
-		<!-- Main -->
+		
 			<div id="main">
 <!------------------------------XOR Cipher---------------------------------->
 <section id="basic" class="wrapper style1">
@@ -189,11 +182,11 @@
 <form name="rsa_form1">
 						
 							
-	<h3>P:</h3> <!--&nbsp;--> 
+	<h3>P:</h3>
 
 	<input readonly="readonly" type ="text" size=5 name="p_primenumber">
 	<br>
-	<h3>Q:</h3> <!--&nbsp; -->
+	<h3>Q:</h3> 
 	<input readonly="readonly" type ="text" size=5 name="q_primenumber">
 	<br>
 	<input type="button" value="Generate prime numbers" onClick = rsa1_generate()>
@@ -216,7 +209,7 @@
 	<div style="float:right;">(P-1) x (Q-1)</div>
 	<input readonly="readonly" type ="text" size=5 name="phi">
 	<br>
-	<h3>E:</h3> <!--&nbsp; -->
+	<h3>E:</h3> 
 	<input readonly="readonly" type ="text" size=5 name="e_random">
 	<br>
 	<input type="button" value="Generate N, PHI, E" onClick = rsa2_generate()>
